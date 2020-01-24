@@ -259,6 +259,25 @@ a.pure-button-primary {
   .card:hover b{
       color: #ddd;
   }
+  /* DOWNLOAD BUTTON */
+  .download-btn {
+    background-color:  #e67e22;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    margin: 10px 25px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .download-btn a{
+      text-decoration: none;
+      color: #ddd;
+  }
+  
+  /* Darker background on mouse-over */
+  .download-btn:hover {
+    background-color: #d35400;
+  }
   /* CARD IMAGE HOVER */
   .card-img-container {
     position: relative;
@@ -309,8 +328,7 @@ a.pure-button-primary {
 
 .footer {
     background: #111;
-    /* position: fixed; */
-    bottom: 0;
+    /* position: relative; */
     width: 100%;
     float:left;
 }
