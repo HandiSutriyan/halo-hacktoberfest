@@ -1,3 +1,6 @@
+function vote(x){
+    return x+=1;
+}
 $.getJSON("../data/data.json", function(result){
     console.log(result);
     let card = document.getElementById('card');
@@ -29,6 +32,7 @@ $.getJSON("../data/data.json", function(result){
 
      let cardContainer = document.createElement('div');
      cardContainer.setAttribute('class','card-container');
+     cardContainer.setAttribute('title','Klik untuk vote');
 
      let h4 = document.createElement('h4');
      h4.textContent = result[i].Tim;
@@ -36,6 +40,11 @@ $.getJSON("../data/data.json", function(result){
      let p = document.createElement('p');
      p.textContent = result[i].Kelas;
 
+     let spant = document.createElement('span');
+     spant.textContent = "Vote "+result[i].vote+" ";
+
+     let icon = document.createElement('i');
+     icon.setAttribute('class','fa fa-heart')
 
      img_container.appendChild(img);
      text.appendChild(link);
@@ -43,9 +52,10 @@ $.getJSON("../data/data.json", function(result){
      img_container.appendChild(middle);
 
      container.appendChild(img_container);
-     
      cardContainer.appendChild(h4);
      cardContainer.appendChild(p);
+     spant.appendChild(icon);
+     cardContainer.appendChild(spant);
      container.appendChild(cardContainer);
      grid.appendChild(container);
      card.appendChild(grid);

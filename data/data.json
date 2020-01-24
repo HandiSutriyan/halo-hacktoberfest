@@ -9,7 +9,8 @@
       "Nama Anggota 1": "Ismail Faruqi",
       "NPT__1": 41180042,
       "Nama Anggota 2": "Rois Misbakhuddin",
-      "NPT__2": 41180058
+      "NPT__2": 41180058,
+      "vote":20
     },
     {
       "Timestamp": "23/01/2020 19:41:43",
@@ -21,7 +22,8 @@
       "Nama Anggota 1": "Sultan abdurachman",
       "NPT__1": 41190042,
       "Nama Anggota 2": "Lalu zaid fadhila",
-      "NPT__2": 41190032
+      "NPT__2": 41190032,
+      "vote":0
     },
     {
       "Timestamp": "23/01/2020 20:55:33",
@@ -33,7 +35,8 @@
       "Nama Anggota 1": "Andre Arya Pratama",
       "NPT__1": 41190068,
       "Nama Anggota 2": "Joan Theoderik Purba",
-      "NPT__2": 41190078
+      "NPT__2": 41190078,
+      "vote":0
     },
     {
       "Timestamp": "23/01/2020 21:11:34",
@@ -45,7 +48,8 @@
       "Nama Anggota 1": "HANRY ALBERT XAVERIUS",
       "NPT__1": 41180019,
       "Nama Anggota 2": "DANIEL DYKA VERNANDA PUTRA",
-      "NPT__2": 41180013
+      "NPT__2": 41180013,
+      "vote":0
     },
     {
       "Timestamp": "23/01/2020 21:42:44",
@@ -57,7 +61,8 @@
       "Nama Anggota 1": "Halis M. Djibran",
       "NPT__1": 41170045,
       "Nama Anggota 2": "Juan Deftandre",
-      "NPT__2": 41170053
+      "NPT__2": 41170053,
+      "vote":0
     },
     {
       "Timestamp": "23/01/2020 21:56:37",
@@ -69,7 +74,8 @@
       "Nama Anggota 1": "Chrisananta Yoga Saputra",
       "NPT__1": 41190049,
       "Nama Anggota 2": "M Hendrik Yulianto",
-      "NPT__2": 41190057
+      "NPT__2": 41190057,
+      "vote":0
     },
     {
       "Timestamp": "23/01/2020 22:54:40",
@@ -81,7 +87,8 @@
       "Nama Anggota 1": "Rahmat Adi Wibowo",
       "NPT__1": 41190020,
       "Nama Anggota 2": "Dany Wahyu Aldo Rahman",
-      "NPT__2": 41190005
+      "NPT__2": 41190005,
+      "vote":0
     },
     {
       "Timestamp": "23/01/2020 23:51:53",
@@ -93,7 +100,8 @@
       "Nama Anggota 1": "Ade Hermawan Fajri",
       "NPT__1": 41170063,
       "Nama Anggota 2": "Hendra Setiaji",
-      "NPT__2": 41170072
+      "NPT__2": 41170072,
+      "vote":0
     },
     {
       "Timestamp": "24/01/2020 6:26:27",
@@ -105,7 +113,8 @@
       "Nama Anggota 1": "RAFI SYAH AKRAM",
       "NPT__1": 41180072,
       "Nama Anggota 2": "M. RAFLI KURNIAWAN IFOJI",
-      "NPT__2": 41180062
+      "NPT__2": 41180062,
+      "vote":0
     },
     {
       "Timestamp": "24/01/2020 11:06:57",
@@ -117,7 +126,8 @@
       "Nama Anggota 1": "Ridwan",
       "NPT__1": 41170121,
       "Nama Anggota 2": "Indah Nayla",
-      "NPT__2": 41170109
+      "NPT__2": 41170109,
+      "vote":0
     },
     {
       "Timestamp": "24/01/2020 13:19:48",
@@ -129,6 +139,7 @@
       "Nama Anggota 1": "Aminulloh Zaki Darojat",
       "NPT__1": 41170006,
       "Nama Anggota 2": "Wirahilman",
-      "NPT__2": 41170031
+      "NPT__2": 41170031,
+      "vote":0
     }
   ]
