@@ -256,7 +256,7 @@ a.pure-button-primary {
     background-color: #e67e22;
     color: #ddd;
   }
-  .card:hover b{
+  .card:hover h4{
       color: #ddd;
   }
   /* DOWNLOAD BUTTON */
