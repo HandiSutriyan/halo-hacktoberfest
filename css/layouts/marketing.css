@@ -32,6 +32,9 @@ h6,
 label {
     color: #34495e;
 }
+label-2 {
+    color: transparent;
+}
 
 .pure-img-responsive {
     max-width: 100%;
@@ -305,6 +308,14 @@ a.pure-button-primary {
     width: 100%;
   }
   
+  .card-icon-img {
+    position: relative;
+    width: 100%;
+    padding:20px;
+    justify-items: center;
+    align-content: center;
+  }
+
   .image {
     opacity: 1;
     display: block;
@@ -312,8 +323,19 @@ a.pure-button-primary {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    align-content: center;
   }
-  
+  .card-icon-img .image {
+    padding: 10px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    align-content: center;
+  }
+
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -332,6 +354,9 @@ a.pure-button-primary {
   .card-img-container:hover .middle {
     opacity: 1;
   }
+  .card-icon-img:hover .middle {
+    opacity: 1;
+  }
   
   .text a{
     background-color: #2d3e50;
@@ -345,6 +370,14 @@ a.pure-button-primary {
   /* Add some padding inside the card container */
   .card-container {
     padding: 8px 16px;
+  }
+  .card-container-d{
+    padding: 16px 16px;
+    text-align: center;
+    justify-content: center;
+  }
+  .card-container-d h4{
+      font-size: 1.5rem;
   }
 
 .footer {
