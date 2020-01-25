@@ -6,7 +6,7 @@ function vote(x){
 $.getJSON("../data/data.json", function(result){
     console.log(result);
     let card = document.getElementById('card');
-    
+
     $.each(result, function(i){
       let grid = document.createElement('div');
       grid.setAttribute('class','l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3');
@@ -28,7 +28,7 @@ $.getJSON("../data/data.json", function(result){
      text.setAttribute('class','text');
 
      let link = document.createElement('a');
-     link.setAttribute('href','#');
+     link.setAttribute('href','page-detail.html?id='+i);
      link.textContent = "Lihat";
 
      let cardContainer = document.createElement('div');
