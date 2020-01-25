@@ -99,7 +99,9 @@ a.pure-button-primary {
     border-radius: 5px;
     font-size: 120%;
 }
-
+.voted{
+    color: tomato;
+ }
 
 /*
  * -- MENU STYLES --

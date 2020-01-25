@@ -8,7 +8,17 @@ function getParam(variable)
        }
        return(false);
 }
- 
+function vote(x){
+    y = x+1;
+    console.log(y);
+    var obj = {
+        "before" : x,
+        "after": y,
+        "status": 1,
+    }
+    localStorage.setItem('vote', JSON.stringify(obj));
+    alert('Maaf Fitur ini belum aktif');
+ }
  $.getJSON("../data/data.json", function(result){
     let id = getParam('id');
     console.log(result[id]);
@@ -66,12 +76,14 @@ function getParam(variable)
         li3.textContent = 'Anggota 2: '+result[id].Anggota2;
 
         let iconV = document.createElement('i');
+        iconV.setAttribute('id','heart');
         iconV.setAttribute('class','fa fa-heart');
 
         let linkV = document.createElement('a');
         linkV.setAttribute('href','#');
         linkV.setAttribute('class','button-xsmall pure-button pure-button-ok');
-        linkV.onclick = alert('halo');
+        linkV.setAttribute('id','vote');
+        linkV.setAttribute('onClick', "vote("+result[id].vote+");");
         linkV.textContent = "Vote ";
 
         let iconP = document.createElement('i');
@@ -117,6 +129,10 @@ function getParam(variable)
         gridTxt.appendChild(container2);
         card.appendChild(gridImg);
         card.appendChild(gridTxt);
-
-
    });
+   var obj = JSON.parse(localStorage.getItem('vote'));
+    if (!obj) {
+        console.log("data kosong");
+    }else{
+        console.log(obj.status);
+    }
