@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NAV BAR</title>
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/navigation-basic.css">
+	    <link rel="stylesheet" href="../js/slicknav.min.css">
+    </head>
+    <body>
+            <nav class="menu-navigation-basic">
+                    <a href="#" class="selected">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Services</a>
+                    <a href="#">Reach us</a>
+                    <a href="#">About</a>
+                </nav>
+            
+    </body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="../js/jquery.slicknav.min.js"></script>
+
+	<script>
+
+		$(function(){
+
+	        var menu = $('.menu-navigation-basic');
+
+	        menu.slicknav();
+
+	        // Mark the clicked item as selected
+
+	        menu.on('click', 'a', function(){
+	            var a = $(this);
+
+	            a.siblings().removeClass('selected');
+	            a.addClass('selected');
+	        });
+	    });
+	    
+	</script>
+
+</html>

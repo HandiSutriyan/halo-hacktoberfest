@@ -13,6 +13,15 @@ body {
     color: #7f8c8d;
     font-size: 13px;
 }
+.panel {
+    /* position: fixed; */
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+    background-color: tomato;
+}
+.wrap {
+    position: relative;
+}
 
 h1,
 h2,
@@ -109,14 +118,17 @@ a.pure-button-primary {
     color: white;
     font-weight: 400;
     font-size: 120%;
+    float: left;
 }
 
 .home-menu .pure-menu-selected a {
-    color: white;
+    color: #ffffff;
+    text-decoration:underline;
 }
 
 .home-menu a {
     color: #6FBEF3;
+    font-size: 80%;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -247,7 +259,7 @@ a.pure-button-primary {
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    transition: 0.5s;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -323,7 +335,7 @@ a.pure-button-primary {
   
   /* Add some padding inside the card container */
   .card-container {
-    padding: 2px 16px;
+    padding: 8px 16px;
   }
 
 .footer {

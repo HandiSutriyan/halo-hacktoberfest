@@ -1,12 +1,13 @@
 function vote(x){
-    return x+=1;
+   y = x+=1;
+   console.log(y);
 }
+
 $.getJSON("../data/data.json", function(result){
     console.log(result);
     let card = document.getElementById('card');
-
+    
     $.each(result, function(i){
-
       let grid = document.createElement('div');
       grid.setAttribute('class','l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3');
 
@@ -42,9 +43,12 @@ $.getJSON("../data/data.json", function(result){
 
      let spant = document.createElement('span');
      spant.textContent = "Vote "+result[i].vote+" ";
+     spant.setAttribute('id','vote');
+     spant.setAttribute('value',result[i].vote);
+     spant.setAttribute('onClick', vote(result[i].vote))
 
      let icon = document.createElement('i');
-     icon.setAttribute('class','fa fa-heart')
+     icon.setAttribute('class','fa fa-heart');
 
      img_container.appendChild(img);
      text.appendChild(link);
